@@ -37,5 +37,5 @@ set(gca, 'Xticklabel',{'-10', '0', '10'});
 
 set(gcf, 'Color', 'w', 'Position', [500 500 400 300]);
 set(gcf, 'PaperUnits', 'inches', 'PaperPosition', [0 0 4 3], 'PaperPositionMode', 'manual');
-print('-djpeg', '-loose', ['../figures/' sprintf('dmd_intro1.jpeg')]);
+print('-djpeg', '-loose', ['figures/' sprintf('dmd_intro1.jpeg')]);
 
